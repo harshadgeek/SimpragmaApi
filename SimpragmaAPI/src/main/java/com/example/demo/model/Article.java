@@ -14,7 +14,6 @@ public class Article {
 	private String title;
 	private String body;
 	private String author;
-	private String accessToken;
 	public String getTitle() {
 		return title;
 	}
@@ -33,12 +32,7 @@ public class Article {
 	public void setAuthor(String author) {
 		this.author = author;
 	}
-	public String getAccessToken() {
-		return accessToken;
-	}
-	public void setAccessToken(String accessToken) {
-		this.accessToken = accessToken;
-	}
+
 	
 	
 }
